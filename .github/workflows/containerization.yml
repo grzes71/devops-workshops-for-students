@@ -36,4 +36,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: devops-workshop:develop
+          tags: ${{ secrets.DOCKERHUB_TOKEN }}/devops-workshop:develop
